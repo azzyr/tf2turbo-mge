@@ -1,0 +1,38 @@
+// ------------------------------------------------------------------------------------ //
+// BET GRENADELAUNCHER
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_QuakeGL.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"			")weapons/quake_gl_shoot.wav"
+}
+"Weapon_QuakeGL.SingleCrit"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"			")weapons/quake_gl_shoot_crit.wav"
+}
+"GrenadeQuake.ImpactHard"	// This is for if they ever get rid of the surfaceprop I'm using right now, otherwise this is unused!
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_74dB"
+	"rndwave"
+	{
+		"wave"		"weapons/grenade_dm_impact.wav"
+		"wave"		"weapons/grenade_dm_impact2.wav"
+		"wave"		"weapons/grenade_dm_impact3.wav"
+	}
+}
+"GrenadeQuake.ImpactSoft"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_74dB"
+	"rndwave"
+	{
+		"wave"		"weapons/grenade_dm_impact.wav"
+		"wave"		"weapons/grenade_dm_impact2.wav"
+		"wave"		"weapons/grenade_dm_impact3.wav"
+	}
+}
